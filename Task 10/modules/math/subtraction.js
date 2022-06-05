@@ -1,6 +1,6 @@
 
 import {a, b} from "./composition.js";
-export function substraction(a, b) {
+ function substraction(a, b) {
   return a - b;
 }
-console.log(substraction)
+export{substraction} from"./composition.js"

@@ -1,5 +1,7 @@
-import {a, b} from "./";
+import {a, b} from "./subtraction.js";
 
-export function multiplication(a, b) {
+ function multiplication(a, b) {
   return a * b;
 }
+
+export {multiplication}from"./composition.js"

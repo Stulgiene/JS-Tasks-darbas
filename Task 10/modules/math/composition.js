@@ -1,6 +1,7 @@
 
 import {a, b} from "./subtraction.js";
 
-export function composition(a, b) {
+function composition(a, b) {
   return a + b;
 }
+export{composition} from"./multiplication.js"

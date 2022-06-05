@@ -1,5 +1,6 @@
-import {a, b} from "./composition.js";
+import {a, b} from "./multiplication";
 
-export function division(a, b) {
+ function division(a, b) {
   return a / b;
 }
+export{division} from"./composition.js"

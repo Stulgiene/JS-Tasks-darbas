@@ -6,10 +6,12 @@ import { composition } from "./modules/math/composition.js";
 import { division } from "./modules/math/division.js";
 import { substraction } from "./modules/math/subtraction.js";
 
-export let a = composition(one, four);
-export let b = division(four, two);
-export let c = substraction(three, two);
-export let d = multiplication(five, two);
+ let a = composition(one, four);
+ let b = division(four, two);
+ let c = substraction(three, two);
+ let d = multiplication(five, two);
+ 
+ export {a,b,c,d} from"./modules/numbers.js"
 
 console.log(a);
 console.log(b);
